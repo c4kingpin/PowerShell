@@ -1,2 +1,2 @@
-# powershell
-Just some random Powershell Codes
+# PowerShell
+Just some random PowerShell Codes
