@@ -1,0 +1,4 @@
+Status,StatusCode,URL
+OK,200,http://www.google.de
+OK,200,http://www.heise.de
+,0,http://www.google2.de
