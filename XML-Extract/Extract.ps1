@@ -38,5 +38,5 @@ catch
 "Schlüssel $KeyValue in " + $file.FullName + " nicht gefunden"
 }
 $Out = $file.FullName,$Value
-"$Out" | Add-Content $OutputFile
+[System.IO.File]::AppendAllText($OutputFile,$Out + ([Environment]::NewLine))
 }
