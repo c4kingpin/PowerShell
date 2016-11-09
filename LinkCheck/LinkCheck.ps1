@@ -13,7 +13,7 @@ Param(
 #$OutputFile = 'C:\Temp\Output.csv'
 
 cls
-$ofs = ','
+$ofs = ';'
 $urls = get-content $InputFile
 
 'Status,StatusCode,URL'| Add-Content $OutputFile
